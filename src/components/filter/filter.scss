@@ -1,0 +1,38 @@
+.header {
+  padding-left: 20px;
+
+  .form {
+    display: flex;
+    gap: 20px;
+  }
+
+  .apply {
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 50);
+    cursor: pointer;
+    color: #000;
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0px 0px 10px rgba(255, 255, 50, 0.3);
+    }
+  }
+
+  .reset {
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
