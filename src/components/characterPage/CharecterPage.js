@@ -10,7 +10,7 @@ const CardList = ({ filters }) => {
   const [modal, setModal] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
 
-  const [loadedCards, setLoadedCards] = useState(6);
+  const [loadedCards, setLoadedCards] = useState(10);
 
   useEffect(() => {
     const fetchFilteredData = async () => {
